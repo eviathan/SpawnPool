@@ -8,9 +8,8 @@ using Pool = System.Collections.Generic.Dictionary<System.Type,
     (
         System.Collections.ObjectModel.ObservableCollection<ISpawnable> Collection,
         PoolConfig Config,
-        UnityEngine.GameObject
-        Folder, SpawnPoolEvents
-        PoolEvents
+        UnityEngine.GameObject Folder, 
+        SpawnPoolEvents PoolEvents
     )>;
 
 public class SpawnItemService
